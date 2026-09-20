@@ -1,0 +1,4 @@
+# Host-level bundle; keeps DSH's permissions and file observation policy.
+- insert:
+    - id: dsh-safekeep
+      name: dsh-safekeep

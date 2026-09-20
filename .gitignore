@@ -1,0 +1,10 @@
+node_modules/
+artifacts/
+test-runs/
+*.tgz
+*.log
+.env
+.env.*
+.credentials.yaml
+.dsh/
+.dsh-safekeep/

@@ -1,0 +1,19 @@
+DSH Safekeep is an independent, unofficial community project.
+It is not affiliated with, reviewed by, or endorsed by DeepSeek.
+DeepSeek Harness is a separate project: https://github.com/deepseek-ai/deepseek-harness
+
+This distribution contains the project's recovery/command-analysis code and
+DSH adapter. It does not bundle DeepSeek Harness, Cordis, PowerShell, Node.js,
+or third-party community plugin source. There are no third-party Node runtime
+dependencies. Development tests install DeepSeek Harness and its dependencies
+separately; their own licenses continue to apply to those installations.
+
+The DSH public tool/pre-execute/guard and profile-bundle interfaces informed
+the adapter. Related community approaches researched include dsh-safety,
+dsh-safe-delete, dsh-file-undo, dsh-safety-net, dsh-security-guard and dsh-riskproof.
+They are independent projects, not dependencies or endorsements. No code from
+them was intentionally incorporated into this distribution. See
+docs/PROVENANCE.md for source traceability and its limits.
+
+Copyright (c) 2026 SPX43JL. Distributed under the MIT License; see LICENSE.
+Source, issues and releases: https://github.com/SPX43JL/dsh-safekeep

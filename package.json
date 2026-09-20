@@ -1,0 +1,27 @@
+{
+  "name": "dsh-safekeep",
+  "version": "0.1.0-rc.1",
+  "description": "Unofficial Windows file recovery guard for unattended DeepSeek Harness workflows",
+  "private": true,
+  "type": "module",
+  "main": "dsh-plugin.mjs",
+  "exports": { ".": "./dsh-plugin.mjs" },
+  "bin": { "dsh-safekeep": "./bin/dsh-safekeep.mjs" },
+  "files": ["bin", "lib", "dsh-plugin.mjs", "cordis.patch.yml", "README.md", "docs", "LICENSE", "NOTICE"],
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } },
+  "engines": { "node": ">=24.14.0 <25" },
+  "os": ["win32"],
+  "license": "MIT",
+  "author": "SPX43JL",
+  "repository": { "type": "git", "url": "git+https://github.com/SPX43JL/dsh-safekeep.git" },
+  "homepage": "https://github.com/SPX43JL/dsh-safekeep#readme",
+  "bugs": { "url": "https://github.com/SPX43JL/dsh-safekeep/issues" },
+  "keywords": ["deepseek-harness", "dsh", "windows", "file-recovery", "agent-safety"],
+  "scripts": {
+    "test": "node test/run.mjs",
+    "test:integration": "node test/run.mjs --integration",
+    "check": "node scripts/check.mjs",
+    "prepublishOnly": "node scripts/no-publish.mjs"
+  },
+  "devDependencies": { "@deepseek-ai/dsh": "0.1.5-rc.2" }
+}
