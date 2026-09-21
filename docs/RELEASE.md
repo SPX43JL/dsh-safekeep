@@ -10,6 +10,6 @@
 
 发布附件：安装 tgz、源码 zip、SHA256SUMS、SOURCE-MANIFEST.json、PACKAGE-MANIFEST.json、BUILD-INFO.json、ARTIFACT-VALIDATION.json、ACCEPTANCE-SUMMARY.json 和 RELEASE-NOTES.md。逐文件清单、代码指纹和脱敏验收说明随附件提供；GitHub 自动生成的 Source code 归档不替代安装 tgz。
 
-项目：[SPX43JL/dsh-safekeep](https://github.com/SPX43JL/dsh-safekeep)。MIT License，Copyright (c) 2026 SPX43JL。源码包保留 private/prepublishOnly，防止误发 npm；本版只在 GitHub 发布，尚未向 DSH 官方插件社区发帖。
+项目：[SPX43JL/dsh-safekeep](https://github.com/SPX43JL/dsh-safekeep)。MIT License，Copyright (c) 2026 SPX43JL。源码包保留 private/prepublishOnly，防止误发 npm；本版通过 GitHub Release 分发，尚未发布 npm package。项目介绍已发布于 [DeepSeek Harness 官方社区](https://github.com/deepseek-ai/deepseek-harness/discussions/7333)，仅作为展示和发现入口，不代表官方审核或背书。
 
 发布提交的 Windows CI 结果以 [Actions](https://github.com/SPX43JL/dsh-safekeep/actions/workflows/ci.yml) 和 Release 附件中的精确 commit/run 记录为准。CI 是无模型凭据的组件验证；真实 Web/headless 模型证据与其分开记录。首次安装和升级后仍应完成当前 profile 的 status 与恢复 canary。

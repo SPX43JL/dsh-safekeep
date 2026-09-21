@@ -65,6 +65,6 @@ CLI 与原生工具使用同一个库，不需要 DSH 或网络。`doctor` 检�
 
 ## 公开项目与维护
 
-[本 GitHub 项目](https://github.com/SPX43JL/dsh-safekeep) 维护源码、文档、[issue](https://github.com/SPX43JL/dsh-safekeep/issues) 和 [Release](https://github.com/SPX43JL/dsh-safekeep/releases)。若以后在 DSH 官方社区展示，也只会链接同一项目并明确非官方；当前尚未提交社区帖子。一个包包含恢复核心和 DSH adapter，无第三方 Node 运行时依赖，不包含 Codex/Claude hook、用户配置或历史私人日志。
+[本 GitHub 项目](https://github.com/SPX43JL/dsh-safekeep) 维护源码、文档、[issue](https://github.com/SPX43JL/dsh-safekeep/issues) 和 [Release](https://github.com/SPX43JL/dsh-safekeep/releases)。项目介绍已发布于 [DeepSeek Harness 官方社区](https://github.com/deepseek-ai/deepseek-harness/discussions/7333)，仅用于展示和交流，并回链同一项目。DSH Safekeep 是非官方社区项目，社区展示不代表 DeepSeek 官方审核或背书。一个包包含恢复核心和 DSH adapter，无第三方 Node 运行时依赖，不包含 Codex/Claude hook、用户配置或历史私人日志。
 
 实现来源、参考和依赖边界见 [NOTICE](NOTICE) 与[来源记录](docs/PROVENANCE.md)。许可证为 [MIT](LICENSE)，Copyright (c) 2026 SPX43JL。支持范围和证据会随实测更新，不把测试样本通过率宣传为总体防护准确率。Windows 组件 CI 的提交结果见 [Actions](https://github.com/SPX43JL/dsh-safekeep/actions/workflows/ci.yml)。
